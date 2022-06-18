@@ -38,50 +38,50 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <i>
             <FaUserClock />
           </i>
-          <a href="/">Área administrativa</a>
+          <a href="/admin">Área administrativa</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaMusic />
           </i>
-          <a href="/">Estilos</a>
+          <a href="/estilo">Estilos</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaFolderOpen />
           </i>
-          <a href="/">Categorias</a>
+          <a href="/categoria">Categorias</a>
         </div>
         <h2>PESSOAS</h2>
         <div className="sidebar-link">
           <i>
             <FaUserSecret />
           </i>
-          <a href="/">Administradores</a>
+          <a href="/adminusers">Administradores</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaUser />
           </i>
-          <a href="/">Usuários</a>
+          <a href="/usuario">Usuários</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaDownload />
           </i>
-          <a href="/">Downloads</a>
+          <a href="/downloads">Downloads</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaRegCreditCard />
           </i>
-          <a href="/">Pagamentos e custos</a>
+          <a href="/pagamentos">Pagamentos e custos</a>
         </div>
         <div className="sidebar-link">
           <i>
             <FaFileAlt />
           </i>
-          <a href="/">Política de Privacidade</a>
+          <a href="/definicoes">Política de Privacidade</a>
         </div>
         <div className="sidebar-logout">
           <i>
